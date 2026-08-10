@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Prabha ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Animated background -->
+    <canvas id="particles"></canvas>
+
+
+    <!-- =========================
+         START SCREEN
+    ========================== -->
+
+    <div class="start-screen" id="startScreen">
+
+        <div class="start-card">
+
+            <div class="heart">♥</div>
+
+            <p class="small-title">
+                A SPECIAL SURPRISE
+            </p>
+
+            <h1>
+                For <span>Prabha</span>
+            </h1>
+
+            <p class="start-message">
+                Something special is waiting for you...
+            </p>
+
+            <button id="startBtn">
+                ▶ Start the Surprise
+            </button>
+
+            <small>
+                🎵 Turn up the volume
+            </small>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         MUSIC
+    ========================== -->
+
+    <audio id="music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+
+
+    <!-- =========================
+         MAIN PAGE
+    ========================== -->
+
+    <main id="page" class="hidden">
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <p class="small-title">
+                ✦ TODAY IS YOUR DAY ✦
+            </p>
+
+
+            <div class="photo-wrap">
+
+                <div class="photo-glow"></div>
+
+                <div class="ring ring-one"></div>
+                <div class="ring ring-two"></div>
+
+                <img
+                    src="prabha.jpg"
+                    alt="Prabha"
+                    class="main-photo"
+                >
+
+                <div class="photo-heart">
+                    ♥
+                </div>
+
+            </div>
+
+
+            <h2 class="name">
+                Prabha
+            </h2>
+
+            <p class="subtitle">
+                A little birthday celebration made just for you 💜
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             BIRTHDAY TITLE
+        ========================== -->
+
+        <section class="birthday">
+
+            <p class="small-title">
+                ✦ A SPECIAL MESSAGE ✦
+            </p>
+
+
+            <h2 class="birthday-title">
+
+                Happy
+
+                <span>
+                    Birthday
+                </span>
+
+            </h2>
+
+
+            <div class="neon-line"></div>
+
+
+            <div class="typing-box">
+
+                <span id="typedText"></span>
+
+                <span class="cursor">
+                    |
+                </span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             MESSAGE
+        ========================== -->
+
+        <section class="card">
+
+            <div class="icon">
+                ✦
+            </div>
+
+            <p class="small-title">
+                FOR YOU
+            </p>
+
+
+            <h2>
+                Keep smiling.<br>
+                Keep shining.
+            </h2>
+
+
+            <p>
+                May your birthday be filled with beautiful moments,
+                genuine smiles, happiness and everything your heart
+                wishes for.
+            </p>
+
+            <p>
+                May the coming year bring you amazing memories,
+                exciting adventures and countless reasons to smile.
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             SECOND PHOTO
+        ========================== -->
+
+        <section class="memory">
+
+            <p class="small-title">
+                ✦ BEAUTIFUL MOMENT ✦
+            </p>
+
+
+            <h2>
+                Just being you.
+            </h2>
+
+
+            <div class="memory-card">
+
+                <div class="memory-image">
+
+                    <img
+                        src="prabha-2.jpg"
+                        alt="Prabha"
+                    >
+
+                </div>
+
+
+                <div class="memory-text">
+
+                    <span class="memory-heart">
+                        ♥
+                    </span>
+
+                    <h3>
+                        Some moments are simply beautiful.
+                    </h3>
+
+                    <p>
+                        And some people make those moments
+                        even more special.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             WISHES
+        ========================== -->
+
+        <section class="wishes">
+
+            <p class="small-title">
+                ✦ MY WISHES FOR YOU ✦
+            </p>
+
+
+            <div class="wish-grid">
+
+
+                <div class="wish">
+
+                    <div class="wish-icon">
+                        ♡
+                    </div>
+
+                    <h3>
+                        Stay Happy
+                    </h3>
+
+                    <p>
+                        May your smile never fade.
+                    </p>
+
+                </div>
+
+
+
+                <div class="wish">
+
+                    <div class="wish-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Keep Shining
+                    </h3>
+
+                    <p>
+                        Always be the amazing person you are.
+                    </p>
+
+                </div>
+
+
+
+                <div class="wish">
+
+                    <div class="wish-icon">
+                        ∞
+                    </div>
+
+                    <h3>
+                        Stay Blessed
+                    </h3>
+
+                    <p>
+                        May good things always find you.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CAKE
+        ========================== -->
+
+        <section class="cake-section">
+
+            <p class="small-title">
+                ✦ MAKE A WISH ✦
+            </p>
+
+
+            <div class="cake">
+
+
+                <!-- Flames -->
+
+                <div class="flame f1"></div>
+                <div class="flame f2"></div>
+                <div class="flame f3"></div>
+
+
+                <!-- Candles -->
+
+                <div class="candle c1"></div>
+                <div class="candle c2"></div>
+                <div class="candle c3"></div>
+
+
+                <!-- Cake -->
+
+                <div class="cake-top"></div>
+
+                <div class="cake-body">
+
+                    <div class="icing"></div>
+
+                </div>
+
+                <div class="plate"></div>
+
+            </div>
+
+
+            <h2>
+                Make a wish, Prabha ✨
+            </h2>
+
+        </section>
+
+
+
+        <!-- =========================
+             FINAL MESSAGE
+        ========================== -->
+
+        <section class="final">
+
+            <div class="line"></div>
+
+
+            <div class="final-heart">
+                ♥
+            </div>
+
+
+            <h2>
+
+                Happy Birthday,
+
+                <br>
+
+                <span>
+                    Prabha.
+                </span>
+
+            </h2>
+
+
+            <p>
+                May this year be your most beautiful one yet. 💜
+            </p>
+
+
+            <div class="line"></div>
+
+        </section>
+
+
+
+        <!-- MUSIC BUTTON -->
+
+        <button
+            class="music-btn"
+            id="musicBtn"
+            title="Music"
+        >
+            ♫
+        </button>
+
+
+        <footer>
+
+            Made with
+            <span>♥</span>
+            for Prabha
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
